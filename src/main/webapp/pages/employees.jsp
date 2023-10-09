@@ -45,7 +45,8 @@
               <th>
 
                 <div class="d-flex justify-content-evenly">
-                  <a class="link-dark link-offset-2 link-underline link-underline-opacity-0" href="edit">
+                  <a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                  href="<%=request.getContextPath()%>/edit?id=<c:out value='${employee.id}' />">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                       class="bi bi-pencil-square" viewBox="0 0 16 16">
                       <path
